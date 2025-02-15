@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <h1>SUJAN</h1>
+  alert("Welcome, KONNICHIWA!");
+const name = "SUJAN";
+console.log("my age is 18");
+  return(
+<h1>{name} P</h1>
   )
 }
 
