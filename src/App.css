@@ -1,10 +1,22 @@
-*{
+body {
   background-color: black;
+  background-image: url('https://wallpapers.com/images/featured/dark-nature-background-sf5wu61v1au0kwfk.jpg');
+  background-size: cover;
+  background-repeat: none;
+}
+.container{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background: linear-gradient(45deg, #0b0b0b, #090909);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(160, 145, 202, 0.822);
+  max-width: 300px;
+  margin: 20px auto;
+  line-height: 1.6;
 }
 h1{
-  color :red;
-  text-align: center;
-  margin-top: 15%;
-  font-family: cursive;
-  font-size: 10rem;
+  color:#f0f0f0;
 }
