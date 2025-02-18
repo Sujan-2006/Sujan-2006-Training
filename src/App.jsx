@@ -1,44 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css' 
+import React from 'react';
+import './App.css'
+import Comp from './Comp'
+function App() {
+ 
+  const myinfo={
+    name:"SUJAN P",
+    age:19,
+  };
 
-function App() { 
-  let name = "SUJAN"
-  
-  
-  const mydetails={  
-    name: "SUJAN",
-    age: 18,
-    dept: "M.Tech Computer Science And Engineering",
-  }
-  
-  alert(`${mydetails.name}`)
-  console.log(`Age is ${mydetails.age}`)
-const sujan=()=>{
-  console.log("I am from M.Tech CSE dept");
-}
 
-  return ( 
+  console.log("age="+myinfo.age);
+
+  
+  return (
     
-    <>
-      <h1 style={{textAlign:"center"}}>{mydetails.dept}</h1>  {} 
+    <div>  
+      <h2>Name:{myinfo.name}</h2>
+      <div id='click'>
+        <button onClick={()=>alert("My name is SUJAN")}>click</button>
+        <button onDoubleClick={()=>alert("My friend name is NARUTO")}>Doubleclick</button>
+      </div>
       
-      {
-       }
-      {}
-      {}
-      <p className='container'>Name: {mydetails.name}<br/>  {}
-      
-        Age: {mydetails.age}<br/>
-        Department: {mydetails.dept}<br/>
-      </p>
+      <div id='container'>
+        <Comp  name="SUJAN P" Age="19" friendname="NARUTO" friendage="18"/>
+      </div>
     
-     <button onClick={sujan}>hi, I am here</button>
-     <button onClick={()=>console.log("hiiiiiiii")}>KONNICHIWA</button>
-    </>
-  )
+   
+     </div> 
+  );
 }
 
 export default App
-

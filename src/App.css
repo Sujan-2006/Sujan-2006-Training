@@ -1,22 +1,14 @@
-body {
-  background-color: black;
-  background-image: url('https://wallpapers.com/images/featured/dark-nature-background-sf5wu61v1au0kwfk.jpg');
-  background-size: cover;
-  background-repeat: none;
-}
-.container{
-  font-size: 20px;
-  font-weight: bold;
+* {
   text-align: center;
-  color: white;
-  background: linear-gradient(45deg, #0b0b0b, #090909);
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(160, 145, 202, 0.822);
-  max-width: 300px;
-  margin: 20px auto;
-  line-height: 1.6;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: x-large;
+  background-color: gray;
 }
-h1{
-  color:#f0f0f0;
+#click{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  size: 5cm;
+  padding: 10px;
 }
+
